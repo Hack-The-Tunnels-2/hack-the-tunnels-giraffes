@@ -3,7 +3,7 @@ import "./Footer.style.scss";
 
 
 function Footer() {
-  const css= `div{padding: 25px, 50px, 75px text-align: center;}`;
+  const css= `.footer{text-align: center}`;
   
  
   return <div className="footer" >
