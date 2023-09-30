@@ -3,11 +3,11 @@ import "./Footer.style.scss";
 
 
 function Footer() {
-  const css= "div{padding: 25px, 50px, 75px text-align: center}";
+  const css= `div{padding: 25px, 50px, 75px text-align: center;}`;
   
  
   return <div className="footer" >
-    <style>(css)</style>
+    <style>{css}</style>
     © 2023 Carleton University
   </div>;
 }
